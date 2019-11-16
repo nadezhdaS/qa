@@ -9,6 +9,9 @@
     table{
         margin: 50px auto;
     }
+    #aboutWork{
+        grid-template: 1fr 0.7fr 0.4fr/2.5fr 6fr;
+    }
     #mySkills{
         grid-template: repeat(5, 1fr) / 1fr;
     }
@@ -26,6 +29,9 @@
     table{
         margin: 50px auto;
     }
+    #aboutWork{
+        grid-template: 1fr 0.7fr 0.4fr/2.5fr 6fr;
+    }
     #mySkills{
         grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     }
@@ -42,6 +48,9 @@
     table {
         margin: 50px 30px;
       }
+      #aboutWork{
+        grid-template: 1fr 0.7fr 0.4fr/2fr 6fr;
+    }
     #mySkills{
         grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     }
@@ -135,7 +144,6 @@ td:first-child{
 }
 #aboutWork{
     display: grid;
-    grid-template: 1fr 0.7fr 0.4fr/2fr 6fr;
     grid-row-gap: 10px;
 }
 #aboutEducation{
